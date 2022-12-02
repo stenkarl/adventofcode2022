@@ -4,7 +4,7 @@ import java.io.File
 
 
 fun main(args:Array<String>) {
-    println("Day 7")
+    println("Day 1")
 
     val lines = File("/Users/sten/dev/adventofcode2022/src/main/kotlin/day1/input.txt").readLines()
 
