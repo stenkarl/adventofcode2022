@@ -6,7 +6,7 @@ import java.math.BigInteger
 var mul = BigInteger.ONE
 
 fun main() {
-    println("Day 9")
+    println("Day 11")
 
     val lines = java.io.File("/Users/sten/dev/adventofcode2022/src/main/kotlin/day11/input.txt").readLines()
 

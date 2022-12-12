@@ -10,7 +10,7 @@ val frameBuffer = mutableListOf<Char>()
 // RBPARAGF
 
 fun main() {
-    println("Day 9")
+    println("Day 10")
 
     val lines = java.io.File("/Users/sten/dev/adventofcode2022/src/main/kotlin/day10/input.txt").readLines()
 
