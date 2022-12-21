@@ -17,8 +17,8 @@ fun main() {
         println("  ${p.second}")
     }*/
 
-    //println("Part 1 ${part1(packets)}")
-    part2(packets)
+    println("Part 1 ${part1(packets)}")
+    //part2(packets)
 }
 
 fun part2(packets: List<Pair<List<Any>, List<Any>>>) {
@@ -54,10 +54,10 @@ fun part1(packets:List<Pair<List<Any>, List<Any>>>): Int {
             println("Packets are the same")
             sum += idx + 1
         }else if (isPacketInOrder(pair)) {
-            //println("Packet is in order (${idx + 1}) $pair")
+            println("Packet is in order (${idx + 1}) $pair")
             sum += idx + 1
         } else {
-            //println("Packet is NOT in order (${idx + 1})")
+            println("Packet is NOT in order (${idx + 1})")
             //println("  ${pair.first}")
             //println("  ${pair.second}")
             //println()

@@ -7,7 +7,7 @@ import kotlin.math.abs
 val sensors = mutableListOf<Sensor>()
 
 fun main() {
-    println("Day 14")
+    println("Day 15")
 
     val lines = java.io.File("/Users/sten/dev/adventofcode2022/src/main/kotlin/day15/input.txt").readLines()
 
